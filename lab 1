@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    double num[3];
+    double sum, ave, product;
+
+
+    printf("Please Enter Three Values:");
+    scanf("%lf %lf %lf", &num[1], &num[2], &num[3]);
+
+    printf("\n\nEntered Values= %.1lf %.1lf %.1lf\n", num[1], num[2], num[3]);
+    sum = num[1]+num[2]+num[3];
+    printf("The sum of values = %.1lf\n", sum);
+    ave = sum/3;
+    printf("The Ave of Values = %.1lf\n", ave);
+    product=num[1]*num[2]*num[3];
+    printf("Product of Values = %.1lf\n", product);
+
+
+
+    return 0;
+}
