@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int last_one[12], x, sum;
+
+    for(x=0; x<12; x++)
+    {
+        printf("Please Enter Value %d : ", x+1);
+        scanf("%d",&last_one[x]);
+        sum += last_one[x];
+    }
+    printf("\n\n");
+    printf("Cumulative Value= %d", sum);
+    return 0;
+}
