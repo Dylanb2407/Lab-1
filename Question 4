@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int lab1_array[10], x;
+
+    for(x=0; x<10; x++)
+    {
+        printf("Please Enter Value %d : ", x+1);
+        scanf("%d",&lab1_array[x]);
+    }
+    printf("\n\n");
+    for(x=0; x<10; x++)
+    {
+        printf("Value %d = %d\n", x+1, lab1_array[x]);
+    }
+
+    return 0;
+}
